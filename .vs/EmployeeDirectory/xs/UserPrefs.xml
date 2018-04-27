@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{4B16D3FE-D179-4E11-A7AD-54C15AD7EC72}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeDirectory/Features/Account/LoginViewModel.cs">
+    <Files>
+      <File FileName="EmployeeDirectory/Features/Account/AccountController.cs" Line="9" Column="1" />
+      <File FileName="EmployeeDirectory/Features/Account/Login.cshtml" Line="5" Column="1" />
+      <File FileName="EmployeeDirectory/Features/Account/LoginViewModel.cs" Line="45" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.EmployeeDirectory PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

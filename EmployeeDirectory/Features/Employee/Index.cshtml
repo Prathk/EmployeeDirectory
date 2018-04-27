@@ -1,0 +1,29 @@
+﻿@model IEnumerable<EmployeeDirectory.Features.Employee.EmployeeViewModel>
+@{
+    ViewData["Title"] = "All Employees";
+}
+
+<div class="row">
+    <table class="table">
+        <tr>
+            <th>@Html.DisplayNameFor(m => m.Name)</th>
+            <th>@Html.DisplayNameFor(m => m.JobTitle)</th>
+            <th>@Html.DisplayNameFor(m => m.Location)</th>
+            <th>@Html.DisplayNameFor(m => m.Email)</th>
+            <th>@Html.DisplayNameFor(m => m.PhoneNumber)</th>
+        </tr>
+        @foreach(var item in Model){
+           <tr>
+           <td> @Html.DisplayFor(m => item.Name)</td>
+            <td> @Html.DisplayFor(m => item.JobTitle)</td>
+            <td> @Html.DisplayFor(m => item.Location)</td>
+            <td> @Html.DisplayFor(m => item.Email)</td>
+            <td> @Html.DisplayFor(m => item.PhoneNumber)</td>
+
+            <td>                 
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) | 
+            </td> 
+        </tr>
+        }
+    </table>
+</div>
